@@ -1,0 +1,9 @@
+---
+version: "3"
+services:
+
+ application:
+   image: rapuruteja/myrepo:zomato
+   container_name: containerapp
+   ports:
+     - "1111:3000"
